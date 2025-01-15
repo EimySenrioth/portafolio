@@ -4,7 +4,7 @@ import Layout from '@components/layout/Layout'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout children={/* contenido */} />}>
+      <Route path="/" element={<Layout children={null} />}>
         {/* Rutas se agregarán aquí */}
       </Route>
     </Routes>
